@@ -25,46 +25,22 @@ Install my CLI with npm
   npm install -g ai-api-reviewer
   ai-review
 ```
-    
-## Authors
+    ## ⚙️ Environment Variables
 
-- [@bhvyeahh](https://www.github.com/bhvyeahh)
+To run this project, you’ll need to add the following environment variables to your `.env` file  
+(You can place it in your project’s root folder)
 
-## 🗺️ Roadmap
+| Variable | Description |
+| :-------- | :----------- |
+| `GEMINI_API_KEY` | **Required.** Your Google Gemini API key for AI code analysis |
+| `GEMINI_DEFAULT_MODEL` | *(Optional)* Default model used for analysis — e.g. `gemini-1.5-flash` |
+| `NODE_ENV` | *(Optional)* Environment mode (`development` / `production`) |
 
-The future plans for **AI API Reviewer CLI** include expanding its AI analysis capabilities, integrations, and developer usability.
-
-- ✅ **v1.0.2 Released:**  
-  - Stable Gemini AI analysis  
-  - Global npm CLI support  
-  - Route auto-detection & payload sanitization  
-
-- 🚧 **Upcoming Features:**  
-  - Support for **multiple frameworks** (NestJS, Koa, Fastify)  
-  - **Custom AI model selection** (OpenAI GPT, Claude, Mistral)  
-  - **Code optimization previews** (before → after visualization)  
-  - Enhanced **multi-file project analysis**  
-  - Export AI reports in **Markdown, PDF, and JSON**  
-
-- 🧩 **Planned Enhancements:**  
-  - **VS Code Extension** to review APIs directly inside editor  
-  - **Web Dashboard** for visualizing AI insights interactively  
-  - **CI/CD integration** (GitHub Actions / Jenkins) for automated code reviews  
-  - **Custom prompt templates** for personalized AI analysis  
-
-- 💡 **Long-Term Goals:**  
-  - Full **AI DevOps Assistant** mode (detect inefficiencies pre-deploy)  
-  - **Plugin Marketplace** for custom linting & AI rules  
-  - Browser-based interactive version of the CLI  
-
----
-
-> 🧠 *AI API Reviewer CLI is evolving into a full-fledged intelligent backend code auditor — powered by Gemini AI.*
-
-## Demo
-
-Insert gif or link to demo
-
+**Example `.env` file:**
+```bash
+GEMINI_API_KEY=your_google_gemini_api_key_here
+GEMINI_DEFAULT_MODEL=gemini-1.5-flash
+NODE_ENV=development
 
 ## 📸 Screenshots (Step-by-step)
 
@@ -111,3 +87,56 @@ Insert gif or link to demo
 ✨ **End Result:**  
 In just one command — `ai-review` — your entire Express.js API is scanned, analyzed, and optimized with **real AI insights** from Gemini.  
 Perfect for debugging, learning, or showcasing clean backend practices 🚀
+## 🗺️ Roadmap
+
+The future plans for **AI API Reviewer CLI** include expanding its AI analysis capabilities, integrations, and developer usability.
+
+- ✅ **v1.0.2 Released:**  
+  - Stable Gemini AI analysis  
+  - Global npm CLI support  
+  - Route auto-detection & payload sanitization  
+
+- 🚧 **Upcoming Features:**  
+  - Support for **multiple frameworks** (NestJS, Koa, Fastify)  
+  - **Custom AI model selection** (OpenAI GPT, Claude, Mistral)  
+  - **Code optimization previews** (before → after visualization)  
+  - Enhanced **multi-file project analysis**  
+  - Export AI reports in **Markdown, PDF, and JSON**  
+
+- 🧩 **Planned Enhancements:**  
+  - **VS Code Extension** to review APIs directly inside editor  
+  - **Web Dashboard** for visualizing AI insights interactively  
+  - **CI/CD integration** (GitHub Actions / Jenkins) for automated code reviews  
+  - **Custom prompt templates** for personalized AI analysis  
+
+- 💡 **Long-Term Goals:**  
+  - Full **AI DevOps Assistant** mode (detect inefficiencies pre-deploy)  
+  - **Plugin Marketplace** for custom linting & AI rules  
+  - Browser-based interactive version of the CLI  
+
+---
+
+> 🧠 *AI API Reviewer CLI is evolving into a full-fledged intelligent backend code auditor — powered by Gemini AI.*
+
+## Badges
+## 🏷️ Badges
+
+Add some visual flair to your project using these Shields.io badges 👇  
+
+[![npm version](https://img.shields.io/npm/v/ai-api-reviewer.svg?color=brightgreen&label=Version)](https://www.npmjs.com/package/ai-api-reviewer)
+[![npm downloads](https://img.shields.io/npm/dt/ai-api-reviewer?color=blue&label=Downloads)](https://www.npmjs.com/package/ai-api-reviewer)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![Built with Node.js](https://img.shields.io/badge/Built%20With-Node.js-darkgreen?logo=node.js)](https://nodejs.org/)
+[![Made with ❤️ by Bhavya Rathore](https://img.shields.io/badge/Made%20with%20❤️%20by-Bhavya%20Rathore-red.svg)](https://github.com/bhvyeahh)
+## Authors
+
+- [@bhvyeahh](https://www.github.com/bhvyeahh)
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at bhavyarathore575@gmail.com
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
