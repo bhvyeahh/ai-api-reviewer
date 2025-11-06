@@ -41,6 +41,36 @@ To run this project, you’ll need to add the following environment variables to
 GEMINI_API_KEY=your_google_gemini_api_key_here
 GEMINI_DEFAULT_MODEL=gemini-1.5-flash
 NODE_ENV=development
+## 🗺️ Roadmap
+
+The future plans for **AI API Reviewer CLI** include expanding its AI analysis capabilities, integrations, and developer usability.
+
+- ✅ **v1.0.2 Released:**  
+  - Stable Gemini AI analysis  
+  - Global npm CLI support  
+  - Route auto-detection & payload sanitization  
+
+- 🚧 **Upcoming Features:**  
+  - Support for **multiple frameworks** (NestJS, Koa, Fastify)  
+  - **Custom AI model selection** (OpenAI GPT, Claude, Mistral)  
+  - **Code optimization previews** (before → after visualization)  
+  - Enhanced **multi-file project analysis**  
+  - Export AI reports in **Markdown, PDF, and JSON**  
+
+- 🧩 **Planned Enhancements:**  
+  - **VS Code Extension** to review APIs directly inside editor  
+  - **Web Dashboard** for visualizing AI insights interactively  
+  - **CI/CD integration** (GitHub Actions / Jenkins) for automated code reviews  
+  - **Custom prompt templates** for personalized AI analysis  
+
+- 💡 **Long-Term Goals:**  
+  - Full **AI DevOps Assistant** mode (detect inefficiencies pre-deploy)  
+  - **Plugin Marketplace** for custom linting & AI rules  
+  - Browser-based interactive version of the CLI  
+
+---
+
+> 🧠 *AI API Reviewer CLI is evolving into a full-fledged intelligent backend code auditor — powered by Gemini AI.*
 
 ## 📸 Screenshots (Step-by-step)
 
@@ -87,36 +117,6 @@ NODE_ENV=development
 ✨ **End Result:**  
 In just one command — `ai-review` — your entire Express.js API is scanned, analyzed, and optimized with **real AI insights** from Gemini.  
 Perfect for debugging, learning, or showcasing clean backend practices 🚀
-## 🗺️ Roadmap
-
-The future plans for **AI API Reviewer CLI** include expanding its AI analysis capabilities, integrations, and developer usability.
-
-- ✅ **v1.0.2 Released:**  
-  - Stable Gemini AI analysis  
-  - Global npm CLI support  
-  - Route auto-detection & payload sanitization  
-
-- 🚧 **Upcoming Features:**  
-  - Support for **multiple frameworks** (NestJS, Koa, Fastify)  
-  - **Custom AI model selection** (OpenAI GPT, Claude, Mistral)  
-  - **Code optimization previews** (before → after visualization)  
-  - Enhanced **multi-file project analysis**  
-  - Export AI reports in **Markdown, PDF, and JSON**  
-
-- 🧩 **Planned Enhancements:**  
-  - **VS Code Extension** to review APIs directly inside editor  
-  - **Web Dashboard** for visualizing AI insights interactively  
-  - **CI/CD integration** (GitHub Actions / Jenkins) for automated code reviews  
-  - **Custom prompt templates** for personalized AI analysis  
-
-- 💡 **Long-Term Goals:**  
-  - Full **AI DevOps Assistant** mode (detect inefficiencies pre-deploy)  
-  - **Plugin Marketplace** for custom linting & AI rules  
-  - Browser-based interactive version of the CLI  
-
----
-
-> 🧠 *AI API Reviewer CLI is evolving into a full-fledged intelligent backend code auditor — powered by Gemini AI.*
 
 ## Badges
 ## 🏷️ Badges
