@@ -25,23 +25,7 @@ Install my CLI with npm
   npm install -g ai-api-reviewer
   ai-review
 ```
-    ## ⚙️ Environment Variables
-
-To run this project, you’ll need to add the following environment variables to your `.env` file  
-(You can place it in your project’s root folder)
-
-| Variable | Description |
-| :-------- | :----------- |
-| `GEMINI_API_KEY` | **Required.** Your Google Gemini API key for AI code analysis |
-| `GEMINI_DEFAULT_MODEL` | *(Optional)* Default model used for analysis — e.g. `gemini-1.5-flash` |
-| `NODE_ENV` | *(Optional)* Environment mode (`development` / `production`) |
-
-**Example `.env` file:**
-```bash
-GEMINI_API_KEY=your_google_gemini_api_key_here
-GEMINI_DEFAULT_MODEL=gemini-1.5-flash
-NODE_ENV=development
-## 🗺️ Roadmap
+    ## 🗺️ Roadmap
 
 The future plans for **AI API Reviewer CLI** include expanding its AI analysis capabilities, integrations, and developer usability.
 
