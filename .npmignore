@@ -1,0 +1,4 @@
+.env
+analysis_reports/
+src/ai_reports/
+node_modules/

@@ -1,0 +1,48 @@
+{
+  "name": "ai-api-reviewer",
+  "version": "1.0.15",
+  "description": "⚡ AI-powered Express.js API Analyzer CLI that detects endpoints, extracts logic, sanitizes code, and generates optimization reports using Gemini AI.",
+  "bin": {
+    "ai-review": "./bin/cli.js"
+  },
+  "type": "module",
+  "main": "./bin/cli.js",
+  "scripts": {
+    "start": "node ./bin/cli.js",
+    "test": "node ./src/scripts/run-full-analysis.js"
+  },
+  "author": "Bhavya Rathore",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhvyeahh/ai-api-reviewer.git"
+  },
+  "homepage": "https://www.npmjs.com/package/ai-api-reviewer",
+  "keywords": [
+    "AI",
+    "Express",
+    "Node.js",
+    "Gemini",
+    "Code Review",
+    "API Analyzer",
+    "CLI Tool",
+    "Automation",
+    "Developer Tools",
+    "Backend"
+  ],
+  "dependencies": {
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0",
+    "@google/genai": "^1.29.0",
+    "@google/generative-ai": "^0.24.1",
+    "chalk": "^5.3.0",
+    "dotenv": "^17.2.3",
+    "inquirer": "^9.2.11",
+    "ora": "^9.0.0",
+    "p-retry": "^7.1.0",
+    "strip-comments": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
